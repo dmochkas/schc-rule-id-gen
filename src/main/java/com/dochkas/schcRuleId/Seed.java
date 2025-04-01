@@ -1,6 +1,6 @@
 package com.dochkas.schcRuleId;
 
-public class Seed {
+public interface Seed<T> {
 
-
+    T getValue();
 }

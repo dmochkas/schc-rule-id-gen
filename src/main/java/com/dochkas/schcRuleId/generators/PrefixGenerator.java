@@ -2,9 +2,9 @@ package com.dochkas.schcRuleId.generators;
 
 import com.dochkas.schcRuleId.model.RulePrefix;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public interface PrefixGenerator {
 
-    ArrayList<RulePrefix> generatePrefixes(int n);
+    List<RulePrefix> generatePrefixes(int n);
 }
